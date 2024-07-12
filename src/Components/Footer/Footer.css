@@ -1,0 +1,188 @@
+/*--------------------------------------------------------------
+# Global Footer
+--------------------------------------------------------------*/
+.footer {
+    background-color: rgb(185, 185, 185);
+    color: var(--default-color);
+    padding: 60px 0;
+    font-size: 14px;
+    border-top: 5px solid rgb(18, 160, 18);
+    margin-top: 25px;
+  }
+  
+  .footer a {
+    color: var(--default-color) !important;
+  }
+  
+  .footer a:hover {
+    color: var(--accent-color);
+  }
+  
+  .footer .copyright {
+    margin-top: 50px;
+    position: relative;
+    padding-top: 20px;
+    border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
+  }
+  
+  .footer .copyright p,
+  .footer .copyright .credits {
+    margin: 2px 0;
+  }
+  
+  .footer .btn-learn-more {
+    background-color: var(--accent-color);
+    border-radius: 30px;
+    padding: 8px 30px;
+    border: 2px solid transparent;
+    transition: 0.3s all ease-in-out;
+    font-size: 14px;
+    color: var(--contrast-color) !important;
+  }
+  
+  .footer .btn-learn-more:hover {
+    border-color: var(--accent-color);
+    background-color: transparent;
+    color: var(--accent-color) !important;
+  }
+  
+  .footer .widget .widget-heading {
+    font-size: 15px;
+    color: var(--heading-color);
+    margin-bottom: 20px;
+  }
+  
+  .footer .widget ul li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .footer .widget ul li a {
+    color: color-mix(in srgb, var(--heading-color), transparent 50%);
+  }
+  
+  .footer .widget ul li a:hover {
+    text-decoration: none;
+    color: var(--heading-color);
+  }
+  
+  .footer .widget .footer-blog-entry .date {
+    color: color-mix(in srgb, var(--default-color), transparent 50%);
+    font-size: 12px;
+  }
+  
+  .footer .social-icons li {
+    display: inline-block;
+  }
+  
+  .footer .social-icons li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 50%;
+    background: color-mix(in srgb, var(--default-color), transparent 90%);
+  }
+  
+  .footer .social-icons li a span {
+    color: color-mix(in srgb, var(--heading-color), transparent 0%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s all ease-in-out;
+  }
+  
+  .footer .social-icons li a:hover {
+    background: var(--accent-color);
+  }
+  
+  .footer .social-icons li a:hover span {
+    color: var(--contrast-color);
+  }
+  
+  .footer .social-icons li:first-child a {
+    padding-left: 0;
+  }
+  
+  .footer .footer-subscribe form {
+    position: relative;
+  }
+  
+  .footer .footer-subscribe .form-control {
+    font-size: 14px;
+    height: 42px;
+    border: 2px solid color-mix(in srgb, var(--default-color), transparent 40%);
+    background: none;
+    color: var(--heading-color);
+    padding-right: 40px;
+  }
+  
+  .footer .footer-subscribe .form-control:focus {
+    border-color: color-mix(in srgb, var(--default-color), transparent 10%);
+    box-shadow: none;
+  }
+  
+  .footer .footer-subscribe .form-control::placeholder {
+    color: color-mix(in srgb, var(--heading-color), transparent 60%);
+  }
+  
+  .footer .footer-subscribe .btn-link {
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    background-color: none;
+    border-color: none;
+    position: absolute;
+    line-height: 0;
+    color: color-mix(in srgb, var(--heading-color), transparent 20%);
+    top: 20px;
+    right: 10px;
+    transform: translateY(-50%) rotate(0deg);
+  }
+  
+  .footer .footer-subscribe .btn-link:hover,
+  .footer .footer-subscribe .btn-link:focus,
+  .footer .footer-subscribe .btn-link:active {
+    text-decoration: none;
+  }
+
+  .footer .social-icons a {
+    color: #fff; /* White color for icons */
+    font-size: 30px;
+    margin: 5px; /* Size of icons */
+  }
+
+.ours{
+display: flex;
+flex-direction: column;
+}
+  
+  /*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+.widgets-container {
+    margin: 60px 0 30px 0;
+  }
+  
+  .widget-title {
+    color: var(--heading-color);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 0 0 10px;
+    margin: 0 0 20px 0;
+    border-left: 4px solid var(--accent-color);
+  }
+  
+  .widget-item {
+    margin-bottom: 30px;
+    background-color: color-mix(in srgb, var(--default-color), transparent 98%);
+    border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+    padding: 30px;
+    border-radius: 5px;
+  }
+  
+  .widget-item:last-child {
+    margin-bottom: 0;
+  }
+  
